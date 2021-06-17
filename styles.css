@@ -1,0 +1,171 @@
+* { 
+    padding: 0%;
+    margin: 0;
+}
+
+*::before {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+/* the part before the navbar */
+
+.navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-width: 0;
+    border-top: 4px solid;
+    border-image: linear-gradient(to right,#5e60ce,#5e60ce 20%,#F5CC00 20%,#F5CC00 40%,#A54657 40%,#A54657 60%,#D76A03 60%,#D76A03 80%,#FFE45C 80%) 1;
+}
+
+/*some navbar styling lols */
+
+.navbar-brand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-top: .2rem;
+}
+
+.nav-link {
+    display: block;
+    margin: 1.5rem;
+    font-family: 'Lato', serif;
+    font-size: 1.15rem;
+}
+
+.yellow:hover {
+    background-color: rgba(255, 218, 31, .7);
+}
+
+.orange:hover {
+    background-color: rgba(215, 106, 3, .7);
+}
+
+.rojo:hover {
+    background-color: rgba(166, 38, 57, 0.9);
+}
+
+.azul:hover {
+    background-color: rgba(94, 96, 206, 0.7);
+}
+
+/*some homepage main body styling bb */
+
+.section {
+    font-family: "Lato", serif;
+    display: flex;
+    margin: .5rem;
+    padding: 6rem 2rem;
+    font-size: 2.25rem;
+    font-weight: 300;
+    justify-content: space-between;
+    color: #121212;
+
+}
+
+
+.red {
+    background-color:rgba(166, 38, 57, 0.9);
+}
+
+.purple {
+    background-color: rgba(94, 96, 206, 0.7);
+}
+
+.home_image {
+    margin-left: 9.5%;
+    height: 430px;
+    width: 340px;
+    box-shadow: -10px 5px 13px -7px #000000;
+}
+
+.left_image{
+    margin-left: 0;
+    margin-right: 9.5%;
+    box-shadow: 10px 5px 13px -7px #000000;
+}
+
+.home_description {
+    padding: 6rem 12rem 2rem;
+}
+
+/*styling for all poems*/
+.Signature {
+    font-family: 'Calligraffitti', fantasy;
+}
+
+.poem_box {
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto
+}
+
+.poem {
+    border: 2px solid rgba(38,38,38,0.59);
+    background-color: rgba(255, 244, 236, 0.7);
+    list-style: none;
+    font-family: 'Roboto Mono';
+    font-size: 2.2rem;
+    line-height: 5.5rem;
+ }
+
+.poem_description {
+    font-family: 'Lato', serif;
+    text-align: center;
+    margin: .5rem;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #121212;
+}
+
+
+/* styling for the Yellow Poem */
+
+.poem_img {
+    width: 1000px;
+    height: 320px;
+    margin-bottom: 2rem;
+    object-fit: cover;
+    box-shadow: 10px 5px 13px 0px #000000;
+}
+
+.yellow_description {
+    background-color: rgba(255, 228, 92, 0.7);
+}
+
+/* styling for the FingerPainting poem */
+
+.fingerpaint_description {
+   background-color:  rgba(166, 38, 57, 0.9);
+    
+}
+
+.fingerpaint {
+    font-size: 1.3rem;
+    line-height: 4rem;
+    width: 45%;
+
+}
+
+/*Styling for the Orange poem */
+
+.orange_description {
+    background-color: rgba(215, 106, 3, .7);
+}
+
+/*Styling for the DancintoTheBlues Poem */
+
+.blue_description {
+    background-color: rgba(94, 96, 206, 0.7);
+}
